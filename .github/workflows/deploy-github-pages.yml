@@ -1,11 +1,8 @@
-# Сборка и публикация на GitHub Pages (ветка main).
-# После первого успешного запуска: Settings → Pages → Source: GitHub Actions.
-
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
